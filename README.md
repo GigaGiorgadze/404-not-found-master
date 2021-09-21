@@ -8,7 +8,9 @@
 
 <div align="center">
   <h3>
-    <a href="https://gigagiorgadze.github.io/404-not-found-master/">
+     <a href="https://gigagiorgadze.github.io/404-not-found-master/">Demo</a>
+     <span> | </span>
+    <a href="">
       Solution
     </a>
     <span> | </span>
