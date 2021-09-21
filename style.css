@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+nav{
+    font-family: 'Inconsolata', monospace;
+    padding: 1.5%;
+}
+h4{
+    margin: 0;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+}
+main img{
+    width: 40%;
+}
+.mainLeft{
+    width: 30%;
+}
+h1{
+font-size: 50px;
+
+}
+p{
+    font-size: 22px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: #333333;
+    border: none;
+    outline: none;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+footer{
+    text-align: center;
+    padding: 2%;
+    font-family: 'Montserrat', sans-serif;
+    color: #BDBDBD;
+}
+a{
+    text-decoration: none;
+    color: #BDBDBD;
+    border-bottom: 1px solid #BDBDBD;
+}
+@media screen and (max-width: 700px) {
+  main{
+      flex-direction: column;
+      align-items: center;
+  }
+  main>*{
+      width: 90% !important;
+  }
+}
